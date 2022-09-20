@@ -1,16 +1,26 @@
 <html>
     <head>
+        <meta charset- 'utf-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <div class="container">
         <h1>Simple Interest Calculator</h1>
-
-        Amount <input type="number"  id="principal">  <br/>
-        Rate <input type="number"  id="rate">  <br/>
+        <br>
+        <form action="">
+            <div class="calc">
+        Amount <input type="number"  id="principal" class="input">  <br/>
+        Rate  <input type="number"  id="rate" class="input1">  <br/>
         No. of Years <input type="number"  id="years">  <br/>
         Interest : <span id="result"></span><br>
-
+        </div>
+   <div class="btn">
         <button onclick="compute()">Compute</button>
+    </div>
+</form>
+        </div>
+
     </body>
 </html>

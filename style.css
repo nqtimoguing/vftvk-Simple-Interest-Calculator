@@ -1,4 +1,63 @@
-body {background-color:tan;}
-h1{color:green;}
 
+* {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+    background-color:tan;
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+h1 {
+    color:green;
+    text-align: center;
+}
+.container {
+    display: inline-block;
+     border: 2px #000 solid;
+     padding: 100px 100px;
+     border-radius: 10px;
+}
+.calc, input {
+     margin: 20px 20px;
+     padding: 5px 5px;
+     font-weight: bold;
+}
+.input {
+    margin-left: 45px;
+}
+.input1 {
+ margin-left: 70px ;
+}
+.btn > button {
+    position: relative;
+    left: 170px;
+}
+button {
+    padding: 6px 30px;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+}
+@media screen and (max-width: 600px) {
+
+    .input {
+        margin-left: 0px;
+    }
+    .input1 {
+     margin-left: 0px ;
+    }
+.calc {
+    margin: 0px 0px;
+}
+    .calc, input {
+        margin: 15px 20px;
+        padding: 5px 5px;
+    
+}
+}

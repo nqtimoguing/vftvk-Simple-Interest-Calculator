@@ -1,12 +1,8 @@
 
-* {
-    margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-    background-color:tan;
+    background-color:black;
+    font-family: arial;
+    color: white;
     height: 100vh;
   display: flex;
   align-items: center;
@@ -14,50 +10,34 @@ body {
 
 }
 h1 {
-    color:green;
-    text-align: center;
+    color:grey;
+    font-family: verdana;
 }
-.container {
-    display: inline-block;
-     border: 2px #000 solid;
-     padding: 100px 100px;
-     border-radius: 10px;
+.maindiv {
+     background-color: white;
+     color: black;
+     width: 500px;
+     height: 400px;
+     border-radius: 25px;
+     padding-left:20px ;
 }
-.calc, input {
-     margin: 20px 20px;
-     padding: 5px 5px;
-     font-weight: bold;
+form {
+    margin: 5px 55px;
 }
-.input {
-    margin-left: 45px;
+footer {
+    padding-top: 20px;
 }
-.input1 {
- margin-left: 70px ;
+.amount {
+    margin-left: 50px;
 }
-.btn > button {
-    position: relative;
-    left: 170px;
+.interest {
+    margin-left: 40px;
+}
+.select {
+    margin-left: 15px;
 }
 button {
-    padding: 6px 30px;
-    background-color: green;
-    color: white;
-    border-radius: 20px;
-}
-@media screen and (max-width: 600px) {
-
-    .input {
-        margin-left: 0px;
-    }
-    .input1 {
-     margin-left: 0px ;
-    }
-.calc {
-    margin: 0px 0px;
-}
-    .calc, input {
-        margin: 15px 20px;
-        padding: 5px 5px;
-    
-}
+    padding: 3px 5px;
+    margin-top: 7px;
+    margin-left: 110px;
 }
